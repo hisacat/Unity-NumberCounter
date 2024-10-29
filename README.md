@@ -8,7 +8,8 @@ This document is also available in other languages:
 [shields-release]: https://img.shields.io/github/v/release/hisacat/Unity-NumberCounterShader
 [github-release]: https://github.com/hisacat/Unity-NumberCounterShader/releases/latest
 
-This is a simple shader for displaying numbers in Unity.
+This is a simple shader for displaying numbers in Unity.  
+![Preview](./Images/Preview.png)
 
 - Displays up to 6 digits
 - Lightweight shader with optimized performance

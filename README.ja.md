@@ -8,7 +8,8 @@
 [shields-release]: https://img.shields.io/github/v/release/hisacat/Unity-NumberCounterShader
 [github-release]: https://github.com/hisacat/Unity-NumberCounterShader/releases/latest
 
-これはUnityで数字を表示するためのシンプルなシェーダーです。
+これはUnityで数字を表示するためのシンプルなシェーダーです。  
+![Preview](./Images/Preview.png)
 
 - 最大6桁の数字を表示可能
 - パフォーマンスを最適化した軽量シェーダー
