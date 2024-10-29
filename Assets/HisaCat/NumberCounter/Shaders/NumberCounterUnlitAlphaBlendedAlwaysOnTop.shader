@@ -27,7 +27,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-Shader "HisaCat/Number Counter Unlit Alpha Blended" {
+Shader "HisaCat/Number Counter Unlit Alpha Blended Always On Top" {
     Properties {
         [HDR]_Color ("Color", Color) = (1, 1, 1, 1)
         [NoScaleOffset]_SpriteSheet ("Sprite Sheet", 2D) = "white" { }
@@ -38,20 +38,22 @@ Shader "HisaCat/Number Counter Unlit Alpha Blended" {
     }
 
     SubShader {
-        Tags { "Queue" = "Transparent" "RenderType" = "Transparent" "PreviewType" = "Plane" }
+		// Use Queue Overlay+1000 for AlwaysOnTop
+        Tags { "Queue" = "Overlay+1000" "RenderType" = "Transparent" "PreviewType" = "Plane" }
         LOD 100
 
         Cull [_Culling]
         ZWrite Off
         Lighting Off
         Blend SrcAlpha OneMinusSrcAlpha
+        ZTest Always // Ztest Always for AlwaysOnTop
         
         Pass {
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
             #include "UnityCG.cginc"
-            #include "Number Counter.cginc"
+            #include "NumberCounter.cginc"
 
             fixed4 frag(v2f i) : SV_Target {
                 DigitArray digitArray = FloatToDigitArray(_Value, _DisplayLength, _Align);

@@ -53,7 +53,7 @@ Shader "HisaCat/Number Counter Unlit Cutout Always On Top" {
             #pragma vertex vert
             #pragma fragment frag
             #include "UnityCG.cginc"
-            #include "Number Counter.cginc"
+            #include "NumberCounter.cginc"
 
             fixed4 frag(v2f i) : SV_Target {
                 DigitArray digitArray = FloatToDigitArray(_Value, _DisplayLength, _Align);

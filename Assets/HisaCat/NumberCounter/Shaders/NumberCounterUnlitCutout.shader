@@ -1,4 +1,4 @@
-// HisaCat's Number Counter
+﻿// HisaCat's Number Counter
 // https://github.com/hisacat/Unity-NumberCounterShader
 // Contacts:
 //     HisaCat
@@ -27,7 +27,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-Shader "HisaCat/Number Counter Unlit Alpha Blended Always On Top" {
+Shader "HisaCat/Number Counter Unlit Cutout" {
     Properties {
         [HDR]_Color ("Color", Color) = (1, 1, 1, 1)
         [NoScaleOffset]_SpriteSheet ("Sprite Sheet", 2D) = "white" { }
@@ -38,28 +38,29 @@ Shader "HisaCat/Number Counter Unlit Alpha Blended Always On Top" {
     }
 
     SubShader {
-		// Use Queue Overlay+1000 for AlwaysOnTop
-        Tags { "Queue" = "Overlay+1000" "RenderType" = "Transparent" "PreviewType" = "Plane" }
+        Tags { "Queue" = "Transparent" "RenderType" = "Transparent" "PreviewType" = "Plane" }
         LOD 100
 
         Cull [_Culling]
         ZWrite Off
         Lighting Off
         Blend SrcAlpha OneMinusSrcAlpha
-        ZTest Always // Ztest Always for AlwaysOnTop
         
         Pass {
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
             #include "UnityCG.cginc"
-            #include "Number Counter.cginc"
+            #include "NumberCounter.cginc"
 
             fixed4 frag(v2f i) : SV_Target {
                 DigitArray digitArray = FloatToDigitArray(_Value, _DisplayLength, _Align);
                 fixed4 digitColor = CalculateDigitColor(edgePadding, i.uv, _DisplayLength, digitArray.digits);
                 
+                clip(digitColor.a - 0.5); // Apply alpha cutout (threshold set to 0.5)
                 fixed4 color = digitColor * _Color * i.color;
+                color.a = _Color.a * i.color.a;
+
                 return color;
             }
             ENDCG
