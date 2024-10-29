@@ -24,13 +24,13 @@
 
 以下はフォントテクスチャの例です。（実際には背景が透明である必要があります）  
 ![Font example](./Images/Font.png)  
-カスタムフォントテクスチャを作成して使用することもできます。サポート用に [Font Template.psd](./Assets/HisaCat/Number Counter/FontTemplate.psd) ファイルを提供しています。
+カスタムフォントテクスチャを作成して使用することもできます。サポート用に [Font Template.psd](./Assets/HisaCat/Number%20Counter/FontTemplate.psd) ファイルを提供しています。
 
 ## 使用方法
 
-- [`HisaCat/Number Counter/Sample Scene`](./Assets/HisaCat/Number Counter/Samples/Sample Scene.unity) をご参照ください。  
+- `HisaCat/Number Counter/Sample Scene` をご参照ください。  
   使用するには、`HisaCat/Number Counter Unlit Cutout` や `HisaCat/Number Counter Unlit Alpha Blended` シェーダーをQuadやMeshに適用します。
-- プロパティ:
+- プロパティ:  
   ![Properties](./Images/Inspector-Properties.png)
   - `Color`: 最終的に掛け合わせる色です。
   - `Sprite Sheet`: 数字0〜9が含まれたテクスチャです。（5列2行）
@@ -44,7 +44,7 @@
 ## その他
 
 このシェーダーは手動でコーディングされており、パフォーマンス面で非常に軽量です。  
-メインロジックは [Number Counter.cginc](./Assets/HisaCat/Number Counter/Shaders/Number Counter.cginc) に記載されていますので、興味のある方はご確認ください。
+メインロジックは [Number Counter.cginc](./Assets/HisaCat/Number%20Counter/Shaders/Number%20Counter.cginc) に記載されていますので、興味のある方はご確認ください。
 
 このシェーダーは、テクスチャの周辺の一部のパディング領域をレンダリングから除外するため、テクスチャの`Mipmaps`オプションを有効にしても視覚的なアーティファクトが発生しません。これにより、VRChatなどのゲームとの互換性も高くなっています。  
 問題が発生した場合は、[Issue](https://github.com/hisacat/Unity-NumberCounterShader/issues) タブからお知らせください！

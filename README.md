@@ -24,13 +24,13 @@ If you enjoy my project, please consider **supporting me** through the button be
 
 Below is an example of a font texture. (The actual background should be transparent.)  
 ![Font example](./Images/Font.png)  
-You can create and use custom font textures as well. A [Font Template.psd](./Assets/HisaCat/Number Counter/FontTemplate.psd) file is provided to help you get started.
+You can create and use custom font textures as well. A [Font Template.psd](./Assets/HisaCat/Number%20Counter/FontTemplate.psd) file is provided to help you get started.
 
 ## Usage
 
-- Refer to the [`HisaCat/Number Counter/Sample Scene`](./Assets/HisaCat/Number Counter/Samples/Sample Scene.unity) for examples.  
+- Refer to the `Assets/HisaCat/Number Counter/Sample Scene` for examples.  
   To use, simply apply materials with shaders like `HisaCat/Number Counter Unlit Cutout` or `HisaCat/Number Counter Unlit Alpha Blended` to a Quad or Mesh.
-- Properties:
+- Properties:  
   ![Properties](./Images/Inspector-Properties.png)
   - `Color`: The final color to be multiplied.
   - `Sprite Sheet`: A texture containing digits 0–9 (5 Columns 2 Rows).
@@ -44,7 +44,7 @@ You can create and use custom font textures as well. A [Font Template.psd](./Ass
 ## Additional Information
 
 This shader is manually coded and optimized for performance.  
-The core logic is located in [Number Counter.cginc](./Assets/HisaCat/Number Counter/Shaders/Number Counter.cginc) if you’re interested in exploring the code.
+The core logic is located in [Number Counter.cginc](./Assets/HisaCat/Number%20Counter/Shaders/Number%20Counter.cginc) if you’re interested in exploring the code.
 
 Since this shader excludes certain padding areas around the edges, enabling the texture’s `Mipmaps` option won’t cause visual artifacts, which makes it compatible with games like VRChat.  
 If you encounter any issues, please let me know through the [Issue](https://github.com/hisacat/Unity-NumberCounterShader/issues) tab!
