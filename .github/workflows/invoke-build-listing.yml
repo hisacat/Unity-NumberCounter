@@ -1,0 +1,17 @@
+name: Invoke Build Repo Listing
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  notify-vcclisting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger VCCListing Repo Workflow
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.REPO_ONLY_TOKEN }}
+          repository: hisacat/VCCListing
+          event-type: build-listing-trigger

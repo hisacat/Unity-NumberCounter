@@ -1,0 +1,19 @@
+{
+    "name":"HisaCat’s VCC Number Counter Shader Listing",
+    "id":"cat.hisa.asset-patcher",
+    "url":"https://hisacat.github.io/Unity-NumberCounterShader/index.json",
+    "author":{
+        "email":"ahisacat@gmail.com",
+        "name":"HisaCat",
+        "url":"https://hisa.cat"
+    },
+    "description":"HisaCat's VPM Number Counter Shader Package Listing",
+    "infoLink":{
+        "url":"https://github.com/hisacat/Unity-NumberCounterShader",
+        "text":"View on GitHub"
+    },
+    "bannerUrl":"banner.png",
+    "githubRepos":[
+        "hisacat/Unity-NumberCounterShader"
+    ]
+}

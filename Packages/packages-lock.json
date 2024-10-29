@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "cat.hisa.package-development-tools": {
+      "version": "file:cat.hisa.package-development-tools",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.burst": {
       "version": "1.8.12",
       "depth": 1,

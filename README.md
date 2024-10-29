@@ -45,7 +45,7 @@ You can create and use custom font textures as well. A [FontTemplate.psd](./Asse
 ## Additional Information
 
 This shader is manually coded and optimized for performance.  
-The core logic is located in [NumberCounter.cginc](./Assets/HisaCat/NumberCounterShader/Shaders/NumberCounter.cginc) if you’re interested in exploring the code.
+The core logic is located in [NumberCounter.cginc](./Assets/HisaCat/NumberCounterShader/Runtime/Shaders/NumberCounter.cginc) if you’re interested in exploring the code.
 
 Since this shader excludes certain padding areas around the edges, enabling the texture’s `Mipmaps` option won’t cause visual artifacts, which makes it compatible with games like VRChat.  
 If you encounter any issues, please let me know through the [Issue](https://github.com/hisacat/Unity-NumberCounterShader/issues) tab!
