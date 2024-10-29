@@ -25,7 +25,7 @@ If you enjoy my project, please consider **supporting me** through the button be
 
 Below is an example of a font texture. (The actual background should be transparent.)  
 ![Font example](./Images/Font.png)  
-You can create and use custom font textures as well. A [Font Template.psd](./Assets/HisaCat/NumberCounter/FontTemplate.psd) file is provided to help you get started.
+You can create and use custom font textures as well. A [FontTemplate.psd](./Assets/HisaCat/NumberCounterShader/FontTemplate.psd) file is provided to help you get started.
 
 ## Usage
 
@@ -45,7 +45,7 @@ You can create and use custom font textures as well. A [Font Template.psd](./Ass
 ## Additional Information
 
 This shader is manually coded and optimized for performance.  
-The core logic is located in [NumberCounter.cginc](./Assets/HisaCat/NumberCounter/Shaders/NumberCounter.cginc) if you’re interested in exploring the code.
+The core logic is located in [NumberCounter.cginc](./Assets/HisaCat/NumberCounterShader/Shaders/NumberCounter.cginc) if you’re interested in exploring the code.
 
 Since this shader excludes certain padding areas around the edges, enabling the texture’s `Mipmaps` option won’t cause visual artifacts, which makes it compatible with games like VRChat.  
 If you encounter any issues, please let me know through the [Issue](https://github.com/hisacat/Unity-NumberCounterShader/issues) tab!
