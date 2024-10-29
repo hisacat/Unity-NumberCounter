@@ -44,7 +44,7 @@
 
 ## 기타
 
-이 쉐이더는 코드를 통해 직접 작성되으며, 퍼포먼스 측면에서 매우 가볍습니다.
+이 쉐이더는 코드를 통해 직접 작성되으며, 퍼포먼스 측면에서 매우 가볍습니다.  
 메인 로직은 [NumberCounter.cginc](./Assets/HisaCat/NumberCounter/Shaders/NumberCounter.cginc)에 작성되어 있으니 궁금하시다면 확인해보세요!
 
 기본적으로 가장자리의 일부 padding 영역을 렌더링에서 제외하기 때문에 텍스처의 `Mipmaps`옵션을 활성화해도 시각적 아티펙트가 발생하지 않습니다. 이로 인해 VRChat등의 게임과의 호환성이 좋습니다.  
