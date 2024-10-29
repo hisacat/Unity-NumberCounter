@@ -1,7 +1,7 @@
 {
   "name": "cat.hisa.number-counter-shader",
   "displayName": "HisaCat's Number Counter Shader",
-  "version": "1.1.0",
+  "version": "1.0.2",
   "unity": "2019.4",
   "description": "Simple shader for displaying numbers in Unity.",
   "author": {
