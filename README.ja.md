@@ -45,7 +45,7 @@
 ## その他
 
 このシェーダーは手動でコーディングされており、パフォーマンス面で非常に軽量です。  
-メインロジックは [NumberCounter.cginc](./Assets/HisaCat/NumberCounterShader/Shaders/NumberCounter.cginc) に記載されていますので、興味のある方はご確認ください。
+メインロジックは [NumberCounter.cginc](./Assets/HisaCat/NumberCounterShader/Runtime/Shaders/NumberCounter.cginc) に記載されていますので、興味のある方はご確認ください。
 
 このシェーダーは、テクスチャの周辺の一部のパディング領域をレンダリングから除外するため、テクスチャの`Mipmaps`オプションを有効にしても視覚的なアーティファクトが発生しません。これにより、VRChatなどのゲームとの互換性も高くなっています。  
 問題が発生した場合は、[Issue](https://github.com/hisacat/Unity-NumberCounterShader/issues) タブからお知らせください！
