@@ -30,7 +30,7 @@
 ## 使用方法
 
 - `HisaCat/Number Counter/Sample Scene` をご参照ください。  
-  使用するには、`HisaCat/Number Counter Unlit Cutout` や `HisaCat/Number Counter Unlit Alpha Blended` シェーダーをQuadやMeshに適用します。
+  使用するには、`HisaCat/Number Counter Unlit Cutout` や `HisaCat/Number Counter Unlit Alpha Blended` シェーダーをQuad meshに適用します。
 - プロパティ:  
   ![Properties](./Images/Inspector-Properties.png)
   - `Color`: 最終的に掛け合わせる色です。

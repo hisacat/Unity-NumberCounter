@@ -30,7 +30,7 @@
 ## Usage
 
 - `HisaCat/Number Counter/Sample Scene` 을 참고하세요.  
-  기본적으로 Quad에 Mesh에 `HisaCat/Number Counter Unlit Cutout`, `HisaCat/Number Counter Unlit Alpha Blended`등의 Shader를 적용한 Material을 할당하면 됩니다.
+  기본적으로 Quad mesh에 `HisaCat/Number Counter Unlit Cutout`, `HisaCat/Number Counter Unlit Alpha Blended`등의 Shader를 적용한 Material을 할당하면 됩니다.
 - Properties:  
   ![Properties](./Images/Inspector-Properties.png)
   - `Color`: 최종적으로 곱해질 색상입니다.

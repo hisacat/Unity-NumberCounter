@@ -30,7 +30,7 @@ You can create and use custom font textures as well. A [Font Template.psd](./Ass
 ## Usage
 
 - Refer to the `Assets/HisaCat/Number Counter/Sample Scene` for examples.  
-  To use, simply apply materials with shaders like `HisaCat/Number Counter Unlit Cutout` or `HisaCat/Number Counter Unlit Alpha Blended` to a Quad or Mesh.
+  To use, simply apply materials with shaders like `HisaCat/Number Counter Unlit Cutout` or `HisaCat/Number Counter Unlit Alpha Blended` to a Quad mesh.
 - Properties:  
   ![Properties](./Images/Inspector-Properties.png)
   - `Color`: The final color to be multiplied.
