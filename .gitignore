@@ -76,5 +76,6 @@ crashlytics-build.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/unity
 
-# VCC
-ProjectSettings/Packages/com.vrchat.base/
+# Ignore XR
+/Assets/XR
+/Assets/XR.meta

@@ -3,6 +3,7 @@
 이 문서는 아래 언어로도 읽을 수 있습니다.  
 [[English]](./README.md) [[한국어]](./README.ko.md) [[日本語]](README.ja.md)
 
+[VCC](https://hisacat.github.io/Unity-NumberCounterShader)를 사용하여 이 패키지를 가져올 수도 있습니다.  
 [![GitHub Release][shields-release]][github-release]
 
 [shields-release]: https://img.shields.io/github/v/release/hisacat/Unity-NumberCounterShader
