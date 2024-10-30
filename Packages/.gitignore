@@ -1,2 +1,5 @@
 /*/
 !com.vrchat.core.*/
+
+# My packages.
+!cat.hisa.number-counter-shader/
