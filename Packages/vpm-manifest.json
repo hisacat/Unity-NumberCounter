@@ -10,7 +10,7 @@
       "version": "3.7.2"
     },
     "cat.hisa.package-development-tools": {
-      "version": "1.0.1"
+      "version": "1.0.2"
     }
   },
   "locked": {
@@ -29,7 +29,7 @@
       }
     },
     "cat.hisa.package-development-tools": {
-      "version": "1.0.1",
+      "version": "1.0.2",
       "dependencies": {}
     }
   }
