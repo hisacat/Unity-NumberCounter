@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.3] - 2024-10-31
+
+### Changed
+
+- Remove unused code block.
+
 ## [1.0.2] - 2024-10-30
 
 ### Changed
@@ -23,7 +29,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release.
 
-[unreleased]: https://github.com//hisacat/Unity-NumberCounterShader/compare/v1.0.2...HEAD
+[unreleased]: https://github.com//hisacat/Unity-NumberCounterShader/compare/v1.0.3...HEAD
+[1.0.3]: https://github.com//hisacat/Unity-NumberCounterShader/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com//hisacat/Unity-NumberCounterShader/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com//hisacat/Unity-NumberCounterShader/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com//hisacat/Unity-NumberCounterShader/releases/tag/v1.0.0
