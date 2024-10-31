@@ -182,13 +182,6 @@ DigitArray FloatToDigitArray(float value, int displayLength, int aligin) {
                 // (5 equals maxDigitCount: 6 - 1)
 
             }
-
-            // hard-coding for avoid unroll issue.
-            {
-                // Remember "maxDigitCount" is fixed to 6.
-                // Do here
-
-            }
         } else if (aligin == 2) {
             // Align: Right.
             // Do nothing because digits are already right-aligned by default.
